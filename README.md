@@ -102,54 +102,53 @@ SDLC process consists of seven phases:
 
 ### Repository:
 
-**What is repository?**
+- **What is repository?**
 	- A repository is usually used to organize a single project.
 	- Repositories can contain folders and files, images, videos, spreadsheets, and data sets -- anything your project needs.Often, repositories include a README file, a file with information about your project. README files are written in the plain text Markdown language
 
 
-**create repository**
+### Create Repository
 
-	- Template: A repository template is a predefined structure or layout that serves as a starting point for new repositories, streamlining the creation process by providing common files, folders, and configurations.When using a repository template, the following elements are commonly included:	
-		1. Default file and directory structure: Provides a basic organization for project files.
-		2. Configuration files: Includes settings for tools, such as CI/CD pipelines or linters.
-		3. README and CONTRIBUTING files: Offers guidance on how to use and contribute to the project.
-		4. License file: Specifies the terms under which the project is distributed.
-		5. Code snippets or examples: Offers reusable code snippets or example files.
-		6. Documentation: Provides initial documentation to help users understand the project.
+- **Template:** A repository template is a predefined structure or layout that serves as a starting point for new repositories, streamlining the creation process by providing common files, folders, and configurations.When using a repository template, the following elements are commonly included:	
+	1. **Default file and directory structure:** Provides a basic organization for project files.
+	2. **Configuration files:** Includes settings for tools, such as CI/CD pipelines or linters.
+	3. **README and CONTRIBUTING files:** Offers guidance on how to use and contribute to the project.
+	4. **License file:** Specifies the terms under which the project is distributed.
+	5. **Code snippets or examples:** Offers reusable code snippets or example files.
+	6. **Documentation:** Provides initial documentation to help users understand the project.
 
-	- Repo visibility: Repository visibility determines who can access and view a repository.
+- **Repo visibility:** Repository visibility determines who can access and view a repository.
 		1. Public  : Accessible to everyone, suitable for open-source projects.
 		2. Internal: Visible within the organization, maintaining privacy from external users.
 		3: Private : Restricts access to users with explicit permission, ideal for proprietary projects.
   		Note: org admin and enterprise admin can see the repo 
 
 
-	- Readme file: A README file is a straightforward document that explains key details about a project.
+- **Readme file:** A README file is a straightforward document that explains key details about a project.
 
-	- gitignore: A .gitignore file specifies intentionally untracked files that Git should ignore, such as build artifacts or temporary files, to keep the repository clean.
+- **gitignore:** A .gitignore file specifies intentionally untracked files that Git should ignore, such as build artifacts or temporary files, to keep the repository clean.
 
 
 ## Repository
-	1. Code       	    : Stores project files and source code.
-	2. Issues  	    : Tracks bugs, feature requests, and tasks.
-	3. Pull Requests    : Manages proposed changes and code reviews.
-	4. **Actions**      : Automates workflows and tasks.
-	5. **Projects**     : Organizes tasks, issues, and pull requests.
-	6. **Wiki**         : Provides collaborative documentation.
-	7. **Security**     : Manages security alerts and settings.
-	8. **Insights**     : Offers analytics and repository statistics.
-	9. **Settings**     : Configures repository options and permissions.
-	10. **Discussion**   : Platform for conversations, questions, and feedback related to the repository.
+1.**Code**      	: Stores project files and source code.
+2. **Issues**  	: Tracks bugs, feature requests, and tasks.
+3. **Pull Requests**: Manages proposed changes and code reviews.
+4. **Actions**      : Automates workflows and tasks.
+5. **Projects**     : Organizes tasks, issues, and pull requests.
+6. **Wiki**         : Provides collaborative documentation.
+7. **Security**     : Manages security alerts and settings.
+8. **Insights**     : Offers analytics and repository statistics.
+9. **Settings**     : Configures repository options and permissions.
+10. **Discussion**  : Platform for conversations, questions, and feedback related to the repository.
 
 
 
-## Repositorie Role:
-
-	**1. Read**     : Read and clone repositories. Open and comment on issues and pull requests.
-	**2. Triage**	: Read permissions plus manage issues and pull requests.
-	**3. Write**	: Triage permissions plus read, clone and push to repositories.
-	**4. Maintain** : Write permissions plus manage issues, pull requests and some repository settings.
-	**5. Admin**	: Full access to repositories including sensitive and destructive actions.
+### Repositorie Role:
+1. **Read**         : Read and clone repositories. Open and comment on issues and pull requests.
+2. **Triage**	: Read permissions plus manage issues and pull requests.
+3. **Write**	: Triage permissions plus read, clone and push to repositories.
+4. **Maintain**     : Write permissions plus manage issues, pull requests and some repository settings.
+5. **Admin**	: Full access to repositories including sensitive and destructive actions.
 
 
 	1. Read    :  Read and clone repositories. Open and comment on issues and pull requests.
