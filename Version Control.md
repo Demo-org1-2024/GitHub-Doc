@@ -9,3 +9,4 @@
 ## Centralized version control systems (CVCS):
 - It rely on a central repository for version management, where users check out files for modification and commit changes back to the central server.
 - exemple:  Subversion (SVN).
+![](https://github.com/Charan-SV-2001/GitHub/blob/main/images/cvcs.png)
