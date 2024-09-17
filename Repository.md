@@ -52,23 +52,29 @@
 
 	1. Read    :  Read and clone repositories. Open and comment on issues and pull requests.
 	2. Triage  : Read permissions plus manage issues and pull requests.
+    
 			- Issue and Pull Request :  Assign or remove a user,  Remove an assigned user, Remove a label, Add or remove a label, 
 			- Issue                  :  Close an issue, Reopen a closed issue, Mark an issue as a duplicate, Set an issue type
 			- Pull Request           :  Close a pull request, Reopen a closed pull request, Request a pull request review
 			- Repository             : Set milestones.
 			- Discusion              :  Manage discussions.
+    
 	3. Write	: Triage permissions plus read, clone, and push to repositories.
+    
 			- Issue and Pull Request : Same as Triage.
 			- Repository             : same as Triage
 			- Secuirity              : View code scanning alerts, Dismiss or reopen code scanning alerts, View Dependabot alerts, Dismiss or reopen Dependabot alerts
 			- Discusion              :  Manage discussions.
+    
 	4.  Maintain: Write permissions plus manage issues, pull requests, and some repository settings.
+    
 			- issue and Pull Request : Same as Write
 			- Repository             : Manage pull request merging settings, Manage GitHub Page settings, Manage project settings, Manage wiki settings, Manage topics, Push commits to protected branches, Set interaction limits, Set milestones, Set the social preview, Edit repository metadata, Create a protected tag, Edit repository announcement banners
 			- Secuirity              : Same as Write
 			- Discusion             :  Manage discussions.
 	  
 	5. Admin   : Full access to repositories including sensitive and destructive actions.
+    
 			- Issue and Pull Request : Same as Maintain.
 			- Issue                  : Close an issue, Reopen a closed issue, Delete an issue,  Mark an issue as a duplicate, Set an issue type
 			- Merge Queue            : Jump to the front of the queue, Request a solo merge
