@@ -82,3 +82,12 @@
 		2. Squash and merge	  :Combining all commits from a feature branch into a single commit before merging.
 		3. Rebase and merge	  :Rewriting commit history by applying changes onto the tip of the target branch.
 
+### Commits ###
+
+	Like saving a file, a commit is a change to one or more files in your branch. Git assigns each commit a unique ID, called a SHA or hash, that tracks:
+	1. The specific changes
+	2. When the changes were made
+	3. Who created the changes
+
+
+
