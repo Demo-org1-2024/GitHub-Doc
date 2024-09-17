@@ -29,7 +29,10 @@
 	2. Oraganziation 
 	3. Repository
 
+### Git Flow
 
+ <img width="501" alt="Github flow" src="https://github.com/user-attachments/assets/df7b56c5-a5a1-4d51-bcdd-137432248d3a">
+ 
 ### GitHub Flow
 
 	1. Create a Feature Branch from Main Branch
