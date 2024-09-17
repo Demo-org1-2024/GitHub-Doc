@@ -77,17 +77,37 @@
 
 
 ### Pull Requests: ###
-	Three types of pull requests:
+ - Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub.
+ - Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
+ - Merge a pull request into the upstream branch when work is completed.
+ - Three types of pull requests:
+   
 		1. Create a Merge commit :Merging changes from a feature branch into the main branch after PR approval.
 		2. Squash and merge	  :Combining all commits from a feature branch into a single commit before merging.
 		3. Rebase and merge	  :Rewriting commit history by applying changes onto the tip of the target branch.
 
 ### Commits ###
 
-	Like saving a file, a commit is a change to one or more files in your branch. Git assigns each commit a unique ID, called a SHA or hash, that tracks:
+- Like saving a file, a commit is a change to one or more files in your branch. Git assigns each commit a unique ID, called a SHA or hash, that tracks:
+ 
 	1. The specific changes
 	2. When the changes were made
 	3. Who created the changes
+
+### Branch
+
+- Use a branch to isolate development work without affecting other branches in the repository.You can use branches to:
+  
+	1. Develop features
+	2. Fix bugs
+	3. Safely experiment with new ideas
+
+### Tags/Releases
+
+- You can create a release to package software, along with release notes and links to binary files, for other people to use.
+- Releases are deployable software iterations you can package and make available for a wider audience to download and use.
+
+
 
 
 
