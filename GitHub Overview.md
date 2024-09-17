@@ -28,3 +28,14 @@
 	1. Enterprise
 	2. Oraganziation 
 	3. Repository
+
+### GitHub Flow
+
+	1. Create a Feature Branch from Main Branch
+	2. Commit the Changes to Feature Branch
+	3. Whenever you are ready with Code, Create a Pull request to Main Branch
+	4. Discuss with your Peer Members, Review the Code from Team Lead
+	5. Merge the Code to Main Branch
+
+
+	
