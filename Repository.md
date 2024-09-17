@@ -107,6 +107,16 @@
 - You can create a release to package software, along with release notes and links to binary files, for other people to use.
 - Releases are deployable software iterations you can package and make available for a wider audience to download and use.
 
+### Gist
+- Gists provide a simple way to share code snippets with others.
+- Every gist is a Git repository, which means that it can be forked and cloned.
+- Gists can be public or secret.
+
+### GitHub Package
+- GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.
+- GitHub Pages is available in public repositories with GitHub Free and GitHub Free for organizations.
+- public and private repositories with GitHub Pro, GitHub Team, GitHub Enterprise Cloud, and GitHub Enterprise Server.
+
 
 
 
