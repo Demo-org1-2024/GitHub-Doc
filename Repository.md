@@ -144,7 +144,6 @@
 
 
 ### GitHub Copilot
-
 - GitHub Copilot is an AI coding assistant that helps you write code faster and with less effort, allowing you to focus more energy on problem solving and collaboration.
 - GitHub Copilot includes a suite of features. You can use Copilot to:
 	- Get code suggestions as you type in your IDE
@@ -152,7 +151,71 @@
 	- Ask Copilot for help using the command line
 	- Generate a description of the changes in a pull request (Copilot Enterprise only)
 	- Create and manage collections of documentation, called knowledge bases, to use as a context for chatting with Copilot (Copilot Enterprise only)
-  	
 
+### GitHub Codespace
+- GitHub Codespaces is an instant, cloud-based development environment that uses a container to provide you with common languages, tools, and utilities for development.
+- GitHub Codespaces is also configurable, allowing you to create a customized development environment for your project. By configuring a custom development environment for your project, you can have a repeatable codespace configuration for all users of your project.
 
+### GitHub Projects
+- A project is an adaptable collection of items that you can view as a table, a kanban board, or a roadmap and that stays up-to-date with GitHub data. Your projects can track issues, pull requests, and ideas that you note down.
+- You can create and customize multiple views by filtering, sorting, and grouping issues and pull requests, visualize work with configurable charts, and add custom fields to track metadata specific to your team. Rather than enforcing a specific methodology, a project provides flexible features you can customize to your team’s needs and processes.
+
+### GitHub Insights
+- It is an analytics tool to give you insights on your software projects and teams. You can collect and analyze all your commits, pull requests, and issues, without sending the data to 3rd party services.
+
+### Markdown in Github
+- Markdown is an easy-to-read, easy-to-write language for formatting plain text.
+	1. **Headings**: Use `#` for headings (e.g., `# Heading 1`).
+	   # Heading 1
+	
+	2. **Bold**: Surround text with `**` (e.g., `**Bold**`).
+	   **Bold**
+	
+	3. **Italic**: Use `*` around text (e.g., `*Italic*`).
+	   *Italic*
+	
+	4. **Bold and Italic**: Combine `***` (e.g., `***Bold and Italic***`).
+	   ***Bold and Italic***
+	
+	5. **Unordered List**: Use `-` for list items (e.g., `- Item`).
+	   - Item 1
+	   - Item 2
+	
+	6. **Ordered List**: Use numbers (e.g., `1. First item`).
+	   1. First item
+	   2. Second item
+	
+	7. **Links**: `[Link text](URL)` to create a link.
+	   [Google](https://www.google.com)
+	
+	8. **Images**: `![Alt text](Image URL)` for images.
+	   <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" width="150"/>
+	
+	9. **Inline Code**: Wrap code with backticks (e.g., `` `code` ``).
+	   `inline code`
+	
+	10. **Blockquote**: Start with `>` for quotes (e.g., `> Quote`).
+	   > This is a blockquote.
+	
+	11. **Horizontal Rule**: Use `---` for a line break.
+	   ---
+### Security On GitHub
+- GitHub has security features that help keep code and secrets secure in repositories and across organizations.
+- Some features are available for repositories on all plans. Additional features are available to enterprises that use GitHub Advanced Security. GitHub Advanced Security features are also enabled for all public repositories on GitHub.
+- #### Available for all repositories
+  	**1. Security policy** 
+  	**2. Dependabot alerts and security updates**
+  	**3. Dependabot version updates**
+  	**4. Dependency graph:** 
+  	**5. Security overview for repositories:** 
+- ##### Available for free public repositories:
+  	**1. Security advisories
+  	2. Secret scanning alerts for users
+  	3. Push protection for users
+  	4. Secret scanning alerts for partners**
+- #### Available with GitHub Advanced Security:
+  	**1. Code scanning
+  	2. Secret scanning alerts for users
+  	3. Custom auto-triage rules
+  	4. Dependency review**
 
