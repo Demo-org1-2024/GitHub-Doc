@@ -37,5 +37,6 @@
 	4. Discuss with your Peer Members, Review the Code from Team Lead
 	5. Merge the Code to Main Branch
 
+	<img width="511" alt="{8AE18E56-E7C9-436B-A78B-4E1BA8064F8C}" src="https://github.com/user-attachments/assets/6785af1c-a9fa-4ffa-ac7f-dfc75f8705a2">
 
 	
