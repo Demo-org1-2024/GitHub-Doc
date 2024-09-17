@@ -73,4 +73,12 @@
 			- Issue                  : Close an issue, Reopen a closed issue, Delete an issue,  Mark an issue as a duplicate, Set an issue type
 			- Merge Queue            : Jump to the front of the queue, Request a solo merge
 			- Repository             : Manage pull request merging settings,Manage GitHub Page settings,Manage project settings,Manage wiki settings,Manage topics,Push commits to protected branches,Set interaction limits,Set milestones,Set the social preview,Edit repository metadata,Manage deploy keys, Manage webhooks, Create a protected tag,Delete a protected tag, Bypass branch protections, Edit repository rules,Edit repository, announcement banners, Edit values of custom properties that allow it.
-			- Security: View code scanning alerts, Dismiss or reopen code scanning alerts, Delete code scanning analyses, View secret scanning alerts, Dismiss or reopen secret scanning alerts, View 
+			- Security: View code scanning alerts, Dismiss or reopen code scanning alerts, Delete code scanning analyses, View secret scanning alerts, Dismiss or reopen secret scanning alerts, View
+
+
+### Pull Requests: ###
+	Three types of pull requests:
+		1. Create a Merge commit :Merging changes from a feature branch into the main branch after PR approval.
+		2. Squash and merge	  :Combining all commits from a feature branch into a single commit before merging.
+		3. Rebase and merge	  :Rewriting commit history by applying changes onto the tip of the target branch.
+
