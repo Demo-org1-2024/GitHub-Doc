@@ -128,18 +128,18 @@
 - You can create workflows that build and test every pull request to your repository, or deploy merged pull requests to production.
 - You can configure a GitHub Actions workflow to be triggered when an event occurs in your repository, such as a pull request being opened or an issue being created. Your workflow contains one or more jobs which can run in sequential order or in parallel. Each job will run inside its own virtual machine runner, or inside a container, and has one or more steps that either run a script that you define or run an action, which is a reusable extension that can simplify your workflow.
 - Key syntax elements used in GitHub Actions:
-	- Name: The name field is used to provide a descriptive name for the workflow. It helps identify the workflow in the Actions tab on GitHub.
-	- on: The on field specifies the events that trigger the workflow. You can define events such as push, pull_request, schedule, or a custom event.
-	- jobs: The jobs field represents the list of jobs that should be executed when the workflow runs. A workflow can have one or more jobs.
-	- runs-on: The runs-on field specifies the type of runner environment in which the job will be executed. GitHub Actions supports various operating systems and virtual environments.
-	- steps: The steps field contains a list of actions that are executed in sequence within a job. Each step typically represents a specific task or action to be performed.
-	- name: The name field provides a descriptive name for each step. It helps identify the step in the workflow log.
-	- uses: The uses field specifies the action or the composite run steps action that should be executed. It can reference an action from the GitHub Marketplace or a local action defined in your repository.
-	- env: The env field allows you to define environment variables that can be accessed within the job. These variables can store dynamic values or sensitive information.
-	- run: The run field contains the shell commands or scripts that are executed as part of the step. You can use multiple lines or a single-line command.
-	- if: The if field enables conditional execution of a step or job based on an expression. The expression can reference context information such as event data, job status, or environment variables.
-	- with: The with field allows you to specify additional inputs or parameters for an action or a step. These inputs can be static values or references to context information.
-	- continue-on-error: The continue-on-error field indicates whether the workflow should continue running or stop if a step fails. By default, the workflow stops on the first step failure.
+	- **Name:** The name field is used to provide a descriptive name for the workflow. It helps identify the workflow in the Actions tab on GitHub.
+	- **on:** The on field specifies the events that trigger the workflow. You can define events such as push, pull_request, schedule, or a custom event.
+	- **jobs:** The jobs field represents the list of jobs that should be executed when the workflow runs. A workflow can have one or more jobs.
+	- **runs-on:** The runs-on field specifies the type of runner environment in which the job will be executed. GitHub Actions supports various operating systems and virtual environments.
+	- **steps:** The steps field contains a list of actions that are executed in sequence within a job. Each step typically represents a specific task or action to be performed.
+	- **name:** The name field provides a descriptive name for each step. It helps identify the step in the workflow log.
+	- **uses:** The uses field specifies the action or the composite run steps action that should be executed. It can reference an action from the GitHub Marketplace or a local action defined in your repository.
+	- **env:** The env field allows you to define environment variables that can be accessed within the job. These variables can store dynamic values or sensitive information.
+	- **run:** The run field contains the shell commands or scripts that are executed as part of the step. You can use multiple lines or a single-line command.
+	- **if:** The if field enables conditional execution of a step or job based on an expression. The expression can reference context information such as event data, job status, or environment variables.
+	- **with:** The with field allows you to specify additional inputs or parameters for an action or a step. These inputs can be static values or references to context information.
+	- **continue-on-error:** The continue-on-error field indicates whether the workflow should continue running or stop if a step fails. By default, the workflow stops on the first step failure.
 <img width="522" alt="action components" src="https://github.com/user-attachments/assets/7dfcfe70-9d47-48c6-a414-3678c3897df6">
 
 
@@ -203,19 +203,19 @@
 - GitHub has security features that help keep code and secrets secure in repositories and across organizations.
 - Some features are available for repositories on all plans. Additional features are available to enterprises that use GitHub Advanced Security. GitHub Advanced Security features are also enabled for all public repositories on GitHub.
 - #### Available for all repositories
-  	**1. Security policy** 
-  	**2. Dependabot alerts and security updates**
-  	**3. Dependabot version updates**
-  	**4. Dependency graph:** 
-  	**5. Security overview for repositories:** 
+  	1. **Security policy** 
+  	2. **Dependabot alerts and security updates**
+  	3. **Dependabot version updates**
+  	4. **Dependency graph:** 
+  	5. **Security overview for repositories:** 
 - ##### Available for free public repositories:
-  	**1. Security advisories
-  	2. Secret scanning alerts for users
-  	3. Push protection for users
-  	4. Secret scanning alerts for partners**
+  	1. **Security advisories**
+  	2. **Secret scanning alerts for users**
+  	3. **Push protection for users**
+  	4. **Secret scanning alerts for partners**
 - #### Available with GitHub Advanced Security:
-  	**1. Code scanning
-  	2. Secret scanning alerts for users
-  	3. Custom auto-triage rules
-  	4. Dependency review**
+  	1. **Code scanning**
+  	2. **Secret scanning alerts for users**
+  	3. **Custom auto-triage rules**
+  	4. **Dependency review**
 
